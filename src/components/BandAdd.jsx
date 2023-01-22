@@ -10,8 +10,10 @@ export const BandAdd = () => {
         e.preventDefault();
 
         if (valor.trim().length > 0) {
+            const scrolly = window.scrollY;
             socket.emit('crear-banda', { nombre: valor });
             setValor('');
+            window.scrollTo(0, scrolly);
         }
 
     }
