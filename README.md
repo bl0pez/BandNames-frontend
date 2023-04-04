@@ -1,7 +1,7 @@
 ### BandsName - Frontend
 
 ## Description
-    Lista nombre de bandas en donde puedes votar por tu banda favorita y se va mostrando en el grafico de barras los votos que tiene cada banda.
+    Lista tus bandas favoritas y vota por ellas, el grafico se actualiza en tiempo real con socket.io
 
 #
 
@@ -31,3 +31,6 @@ npm install
     ```bash
     npm run dev
     ```
+
+# Url del backend
+ - https://github.com/bl0pez/BandNames

@@ -18,13 +18,13 @@ export const BandAdd = () => {
 
     return (
         <>
-            <h2>Add a new band</h2>
+            <h2>Agregar Banda</h2>
 
             <form onSubmit={onSubmit}>
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="New band name"
+                    placeholder="Ingrese el nombre de la banda"
                     value={valor}
                     onChange={(e) => setValor(e.target.value)}
                 />
